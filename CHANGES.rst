@@ -1,6 +1,12 @@
 Changelog for django-jux
 ========================
 
+1.0.2 (unreleased)
+------------------
+
+- Nothing changed yet.
+
+
 1.0.1 (2011-09-10)
 ------------------
 
