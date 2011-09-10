@@ -36,18 +36,19 @@ Then, in your django project settings:
 Thanks
 ======
 This module pulls inspiration from a lot of sources, and credit is due to all of them:
-- `junitxml plugin from the experimental plugin branch of unittest2`__
+
+* `junitxml plugin from the experimental plugin branch of unittest2`__
 
 __ https://bitbucket.org/jpellerin/unittest2
 
-- `xunit plugin for nose`__
+* `xunit plugin for nose`__
 
 __ http://nosexunit.sourceforge.net/ 
 
-- `Jenkins CI`__
+* `Jenkins CI`__
 
 __ http://jenkins-ci.org/
 
-- `JUnit itself`__
+* `JUnit itself`__
 
 __ http://www.junit.org/
