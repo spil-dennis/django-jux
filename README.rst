@@ -52,3 +52,7 @@ __ http://jenkins-ci.org/
 * `JUnit itself`__
 
 __ http://www.junit.org/
+
+* `MetaMetrics, Inc.`__
+
+__ http://www.metametricsinc.com/
