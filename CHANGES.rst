@@ -1,10 +1,10 @@
 Changelog for django-jux
 ========================
 
-1.0.2 (unreleased)
+1.0.2 (2011-09-15)
 ------------------
 
-- Nothing changed yet.
+- Added classifiers to setup.py (Thanks, pypi-classifiers!)
 
 
 1.0.1 (2011-09-10)
