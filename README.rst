@@ -4,7 +4,7 @@ Introduction
 django-jux/JUXD is an attempt to get JUnit-style XML output from the Django test runner.
 It does a few notable things:
 
-* Uses the test runner from the ``django.utils.unittest`` abstraction layer (Django >= 1.3 required)
+* Uses the test runner from the ``django.utils.unittest`` abstraction layer (Django >= 1.6 required)
 * Does not redefine the behavior of the test suite's ``run`` method
 * Does not redefine the behavior of the test runner's ``run_suite`` method
 * Includes test suite run time as well as individual test run times
@@ -23,7 +23,7 @@ which works perfectly.
 Installation
 ============
 
-Install Django >=1.3 and set up a project.
+Install Django >=1.6 and set up a project.
 Then, in your django project settings:
 
 ::
@@ -36,6 +36,10 @@ Then, in your django project settings:
 Thanks
 ======
 This module pulls inspiration from a lot of sources, and credit is due to all of them:
+
+* `Original django-jux`__ (for Django 1.3-1.5)
+
+__ https://bitbucket.org/seandst/django-jux/
 
 * `junitxml plugin from the experimental plugin branch of unittest2`__
 

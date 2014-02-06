@@ -7,7 +7,7 @@ import time
 from xml.etree import ElementTree as ET
 
 from django.conf import settings
-from django.test.simple import DjangoTestSuiteRunner
+from django.test.runner import DiscoverRunner
 from django.utils.unittest import TextTestRunner, TextTestResult
 
 class JUXDTestResult(TextTestResult):
@@ -89,6 +89,6 @@ class JUXDTestRunner(TextTestRunner):
     resultclass = JUXDTestResult
 
 
-class JUXDTestSuiteRunner(DjangoTestSuiteRunner):
+class JUXDTestSuiteRunner(DiscoverRunner):
     def run_suite(self, suite, **kwargs):
         return JUXDTestRunner(verbosity=self.verbosity, failfast=self.failfast).run(suite)
