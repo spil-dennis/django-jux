@@ -6,9 +6,10 @@ setup(
     name='django-jux',
     version='1.1',
     description='JUnit-style XML output for Django tests',
-    author=u'Sean Myers, Motiejus Jakštys',
+    author=u'Sean Myers, Motiejus Jakstys',
     author_email='sean.dst@gmail.com, desired.mta@gmail.com',
-    url='https://github.com/Motiejus/django-jux',
+    url='https://github.com/spil-dennis/django-jux',
+    long_description='123',
     packages=['juxd'],
     license='MIT Expat License',
     install_requires=[
