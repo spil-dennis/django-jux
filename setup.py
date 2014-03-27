@@ -6,7 +6,7 @@ setup(
     name='django-jux',
     version='1.1',
     description='JUnit-style XML output for Django tests',
-    author='Sean Myers, Motiejus Jakštys',
+    author=u'Sean Myers, Motiejus Jakštys',
     author_email='sean.dst@gmail.com, desired.mta@gmail.com',
     url='https://github.com/Motiejus/django-jux',
     packages=['juxd'],
