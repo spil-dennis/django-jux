@@ -11,7 +11,6 @@ setup(
     url='https://github.com/Motiejus/django-jux',
     packages=['juxd'],
     license='MIT Expat License',
-    long_description=open('README.rst', encoding="utf-8").read(),
     install_requires=[
         'Django >= 1.6',
     ],
